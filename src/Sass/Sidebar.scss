@@ -1,0 +1,39 @@
+.sidebar{
+    width: 25%;
+    height: 100vh;
+    background: rgb(216, 203, 24);
+    color: black;
+    text-align: center;
+    font-size: larger;
+  }
+  .sidebar h2{
+    margin: 15px 0px;
+    height: 35px;
+    box-shadow: 0px 1px 10px 1px grey;
+  }
+  .sidebar ul{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;   */
+    text-align: center;
+  }
+  .sidebar ul li{
+    margin-bottom: 10px;
+    padding: 5px 50%;
+    width: 100%;
+  }
+  .sidebar .active{
+    background-color:whitesmoke;
+    width: 100%;
+    /* padding: 5px 50%; */
+    color: black;
+    box-shadow: 0px 1px 15px -3px black;
+    padding-right: 20vw;
+  }
+  .sidebar li .link{
+    text-decoration: none;
+    color: black;
+    padding-right: 20vh;
+    padding-left: 5px;
+  }
+  

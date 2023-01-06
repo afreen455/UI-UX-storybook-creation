@@ -1,0 +1,25 @@
+.container{
+    width: 286px;
+    background-color: burlywood;
+    height: 50vh;
+    margin: 10px auto;
+  }
+  .size{
+    width: 286px;
+    height: 180px;
+    background-color:skyblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+  }
+  .cardtittle{
+    padding-left: 10px;
+  }
+  .cardtitle button{
+    width: 130px;
+    height: 30px;
+    background-color:coral;
+    margin-top: 10px;
+  }

@@ -1,0 +1,293 @@
+.Home {
+  text-align: center;
+  background-color: skyblue;
+  height: 30vh;
+}
+
+.Home h1 {
+  font-size: larger;
+  margin-top: 5%;
+  padding-bottom: 10px;
+}
+
+.About {
+  text-align: center;
+  background-color: skyblue;
+  height: 20vh;
+}
+
+.About h1 {
+  font-size: larger;
+  margin-top: 5%;
+}
+
+.Introduction {
+  text-align: center;
+  background-color: skyblue;
+  height: 30vh;
+}
+
+.Introduction h1 {
+  font-size: larger;
+  margin-top: 5%;
+  padding-bottom: 10px;
+}
+
+.sidebar {
+  width: 25%;
+  height: 100vh;
+  background: rgb(216, 203, 24);
+  color: black;
+  text-align: center;
+  font-size: larger;
+}
+
+.sidebar h2 {
+  margin: 15px 0px;
+  height: 35px;
+  box-shadow: 0px 1px 10px 1px grey;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;   */
+  text-align: center;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+  padding: 5px 50%;
+  width: 100%;
+}
+
+.sidebar .active {
+  background-color: whitesmoke;
+  width: 100%;
+  /* padding: 5px 50%; */
+  color: black;
+  box-shadow: 0px 1px 15px -3px black;
+  padding-right: 20vw;
+}
+
+.sidebar li .link {
+  text-decoration: none;
+  color: black;
+  padding-right: 20vh;
+  padding-left: 5px;
+}
+
+.navmock ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: violet;
+  height: 50px;
+}
+
+.navmock li .link {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.navmock ul li {
+  list-style: none;
+  margin: auto 0;
+}
+
+.navmock .active {
+  background-color: whitesmoke;
+  padding: 5px 10px;
+  text-align: center;
+  box-shadow: 10px 5px 6px 3px grey;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: blueviolet;
+  margin: 20px 0px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: darksalmon;
+  color: black;
+}
+
+.mainpage {
+  background: whitesmoke;
+  width: 75%;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+}
+
+.alert {
+  background-color: aqua;
+  width: 50%;
+  height: 30px;
+  margin: 50px auto;
+  padding: 0px 50px;
+}
+
+.alerts {
+  background-color: coral;
+  width: 50%;
+  height: 30px;
+  margin: 50px auto;
+  padding: 0px 50px;
+}
+
+.center {
+  margin: 50px auto;
+}
+
+.center button {
+  margin: 15px 80px;
+  width: 100px;
+  height: 50px;
+  padding: 10px 10px;
+}
+
+#myList {
+  width: 220px;
+  height: 30px;
+  margin: 20px auto;
+  margin: 20px 50px;
+  color: black;
+  background-color: skyblue;
+  font-size: 17px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 286px;
+  background-color: burlywood;
+  height: 50vh;
+  margin: 10px auto;
+}
+
+.size {
+  width: 286px;
+  height: 180px;
+  background-color: skyblue;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.cardtittle {
+  padding-left: 10px;
+}
+
+.cardtitle button {
+  width: 130px;
+  height: 30px;
+  background-color: coral;
+  margin-top: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 5px solid rosybrown;
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+.modal {
+  border: 1px solid black;
+  width: 50%;
+  height: 140px;
+  background-color: burlywood;
+  margin: 20px auto;
+}
+
+.firstrow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  height: 50px;
+}
+
+.close {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.secondrow {
+  text-align: start;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.secondrow p {
+  margin-left: 5px;
+}
+
+.thirdrow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.thirdrow button {
+  margin-top: 29px;
+  padding: 4px 12px;
+  background-color: rgb(102, 219, 102);
+}
+
+.page {
+  margin: 30px 30px;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid rgb(201, 30, 207);
+}
+
+.pagination a.active {
+  background-color: rgb(45, 25, 161);
+  color: white;
+  border: 1px solid rgb(21, 50, 179);
+}
+
+.pagination a:hover:not(.active) {
+  background-color: crimson;
+}/*# sourceMappingURL=Main.css.map */

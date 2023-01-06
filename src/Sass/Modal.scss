@@ -1,0 +1,39 @@
+.modal{
+    border: 1px solid black;
+    width: 50%;
+    height: 140px;
+    background-color:burlywood;
+    margin: 20px auto;
+  }
+  .firstrow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    height: 50px;
+  }
+  .close{
+    font-size: larger;
+    font-weight: bolder;
+  }
+  .secondrow{
+    text-align: start;
+    height: 30px;
+    border: 1px solid black;
+  }
+  .secondrow p{
+    margin-left: 5px;
+  }
+  .thirdrow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+  
+  }
+  .thirdrow button{
+    margin-top: 29px;
+    padding: 4px 12px;
+    background-color: rgb(102, 219, 102);
+  
+  }

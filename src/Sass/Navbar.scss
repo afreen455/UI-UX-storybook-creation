@@ -1,0 +1,22 @@
+.navmock ul{
+    display: flex;
+    justify-content: space-around;
+    background-color:violet;
+    height: 50px;
+  }
+  .navmock li .link{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+  }
+  .navmock ul li{
+    list-style: none;
+    margin: auto 0;
+  }
+  .navmock .active{
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    text-align: center;
+    box-shadow: 10px 5px 6px 3px grey;
+  }
+  
